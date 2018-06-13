@@ -1,0 +1,38 @@
+{
+  "pathwayTitle": "Service Mesh with Istio",
+  "title": "Observability with Kiali",
+  "icon": "fa-openshift",
+  "description": "Shows Istio observability",
+  "difficulty": "Intermediate",
+  "time": "1 hour",
+  "files": [],
+  "environment": {
+      "showdashboard": true,
+      "dashboard": "Web Console",
+      "uilayout": "editor-terminal",
+      "uieditorpath": "/root/projects/istio-tutorial",
+      "uisettings": "java",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "trainingid": "openshift-middleware-3-7",
+    "imageid": "openshift-middleware-3-7", "port": 8443
+  },
+  "details": {
+    "assets": {
+      "host01": [
+      ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "credits": "http://developers.redhat.com",
+      "code": "set-env.sh",
+      "courseData": "run-init.sh"
+    },
+    "steps": [
+        { "title": "Kiali Installation", "text": "1installation.md" },
+        { "title": "Tutorial Installation", "text": "2bookinfo-installation.md" },
+        { "title": "Request routing", "text": "3request-routing.md" }
+    ]
+  }
+}
